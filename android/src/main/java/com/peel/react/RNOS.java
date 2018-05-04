@@ -67,7 +67,7 @@ public final class RNOS extends ReactContextBaseJavaModule implements LifecycleE
         }
 
         constants.put("networkInterfaces", networkMap);
-        constants.put("homedir", getReactApplicationContext().getFilesDir());
+        constants.put("homedir", getReactApplicationContext().getFilesDir().getAbsolutePath());
         return constants;
     }
 
