@@ -1,5 +1,5 @@
 {
-  "name": "@staltz/react-native-os",
+  "name": "react-native-os-staltz",
   "version": "2.1.0",
   "description": "node's os module for react-native",
   "main": "index.js",
@@ -33,11 +33,5 @@
   "devDependencies": {
     "babel-eslint": "^4.1.6",
     "eslint-plugin-react": "^3.11.3"
-  },
-  "rnpm": {
-    "android": {
-      "packageName": "react-native-os",
-      "packageFolder": "@staltz/react-native-os"
-    }
   }
 }
